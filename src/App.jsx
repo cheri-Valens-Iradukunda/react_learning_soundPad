@@ -1,6 +1,6 @@
 import { Pad } from "./components/Pad"
-import padsData from "./assets/pads"
-import { useEffect, useState } from "react"
+import padsData from "./assets/pads.json"
+import { useState } from "react"
 
 function App() {
 
