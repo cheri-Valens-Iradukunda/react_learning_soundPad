@@ -18,7 +18,7 @@ function App() {
   const handleTurn = () => {
     setPads(currPads => {
       return currPads.map(elem => {
-        return {...elem,on: true}
+        return {...elem,on: false}
       })
     })
   }
@@ -35,7 +35,7 @@ function App() {
 
           ))
         }
-        <button onClick={handleTurn} className="bg-green-900 px-5 py-2 col-span-2 text-white font-semibold" >Turn all on</button>
+        <button onClick={handleTurn} className="bg-green-900 px-5 py-2 col-span-2 text-white font-semibold" >Turn all off</button>
       </div>
     </>
   )
